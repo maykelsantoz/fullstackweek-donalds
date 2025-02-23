@@ -54,3 +54,11 @@ npx prisma migrate dev
 npx prisma migrate dev --name remove_user_id_to_transaction
 
 npx prisma studio
+
+## Acrescentar dados no banco
+
+seed.ts
+
+npm install -D ts-node@10.9.2
+
+npx prisma db seed
