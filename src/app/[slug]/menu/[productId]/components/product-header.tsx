@@ -27,7 +27,7 @@ const ProductHeader = ({ product }: ProductHeaderProps) => {
         src={product.imageUrl}
         alt={product.name}
         fill
-        className="object-contain bg-slate-100"
+        className="object-contain"
       />
       <Button
         variant="secondary"
