@@ -1,11 +1,9 @@
-// import { getRestaurantBySlug } from "@/data/get-restaurant-by-slug";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import { db } from "@/lib/prisma";
 
 import ConsunptionMethodOption from "./components/consumption-method-option";
-
 interface RestaurantPageProps {
   params: Promise<{ slug: string }>
 }

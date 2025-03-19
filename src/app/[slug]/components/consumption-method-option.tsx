@@ -12,6 +12,7 @@ interface ConsunptionMethodOptionProps {
   buttonText: string;
   option: ConsumptionMethod
 }
+
 const ConsunptionMethodOption = ({ slug, imageAlt, imageUrl, buttonText, option }: ConsunptionMethodOptionProps) => {
   return (
     <Card>
