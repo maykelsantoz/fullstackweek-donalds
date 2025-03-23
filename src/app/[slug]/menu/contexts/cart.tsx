@@ -82,12 +82,11 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
         return {...prevProducts, quantity: prevProducts.quantity + 1};
       });
     });
-  }
+  };
 
   const removeProduct = (productId: string) => {
     setProducts(prevProducts => prevProducts.filter(prevProduct => prevProduct.id != productId));
-  }
-
+  };;
 
   return (
     <CartContext.Provider

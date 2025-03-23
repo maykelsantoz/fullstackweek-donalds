@@ -27,7 +27,6 @@ const CartProductItem = ({product}: CartItemProps) => {
                         variant="outline"
                         className="h-7 w-7 rounded-lg"
                         onClick={() => decreaseProductQuantity(product.id)}
-        
                     >
                     <ChevronLeftIcon />
                     </Button>
