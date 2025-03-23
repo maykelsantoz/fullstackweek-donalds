@@ -43,6 +43,10 @@ body {
   body {
     @apply bg-background text-foreground h-full;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ef81cd64e8c0680f8065061362f31766bca48960
   html {
     @apply h-full;
   }

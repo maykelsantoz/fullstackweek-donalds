@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+=======
+// import { getRestaurantBySlug } from "@/data/get-restaurant-by-slug";
+>>>>>>> ef81cd64e8c0680f8065061362f31766bca48960
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import { db } from "@/lib/prisma";
 
 import ConsunptionMethodOption from "./components/consumption-method-option";
+<<<<<<< HEAD
+=======
+
+>>>>>>> ef81cd64e8c0680f8065061362f31766bca48960
 interface RestaurantPageProps {
   params: Promise<{ slug: string }>
 }
