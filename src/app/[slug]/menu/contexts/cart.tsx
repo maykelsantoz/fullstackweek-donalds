@@ -72,7 +72,7 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
       });
     });
   };
-
+  
   const increaseProductQuantity = (productId: string) => {
     setProducts(prevProducts => {
       return prevProducts.map(prevProducts => {
